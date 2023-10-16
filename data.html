@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Page</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Data Converter</h1>
+  <div class="content">
+    <div class="Datainput">
+      <label class="data-input" for="input-data">From:</label>
+      <input type="number" id="input-data" autofocus />
+      <select id="data-input-unit">
+        <option value="bit">Bit</option>
+        <option value="byte">Byte</option>
+        <option value="kilobit">Kilobit</option>
+        <option value="kilobyte">Kilobyte</option>
+        <option value="megabit">Megabit</option>
+        <option value="megabyte">Megabyte</option>
+        <option value="gigabit">Gigabit</option>
+        <option value="gigabyte">Gigabyte</option>
+        <option value="terabit">Terabit</option>
+        <option value="terabyte">Terabyte</option>
+    
+      </select>
+    </div>
+    <div class="Dataoutput">
+      <label class="data-input" for="output-data">To:</label>
+      <!-- <input type="number" id="output-data" readonly /> -->
+      <select id="data-output-unit">
+         <option value="bit">Bit</option>
+        <option value="byte">Byte</option>
+        <option value="kilobit">Kilobit</option>
+        <option value="kilobyte">Kilobyte</option>
+        <option value="megabit">Megabit</option>
+        <option value="megabyte">Megabyte</option>
+        <option value="gigabit">Gigabit</option>
+        <option value="gigabyte">Gigabyte</option>
+        <option value="terabit">Terabit</option>
+        <option value="terabyte">Terabyte</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="data.js"></script>
+</body>
+</html>
+ <!-- <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option> -->

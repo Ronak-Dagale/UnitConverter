@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight page</title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Weight Converter</h1>
+  <div class="content">
+    <div class="Weightinput">
+      <label class="weight-input" for="input-weight">From:</label>
+      <input type="number" id="input-weight" autofocus />
+      <select id="weight-input-unit">
+        <option value="kilogram">Kilogram</option>
+        <option value="gram">Gram</option>
+        <option value="milligram">Milligram</option>
+        <option value="metricton">Metric Ton</option>
+        <option value="longton">Long Ton</option>
+        <option value="shortton">Short Ton</option>
+        <option value="pound">Pound</option>
+        <option value="ounce">Ounce</option>
+        <option value="carrat">Carrat</option>
+        <option value="amu">Atomic Mass Unit</option>
+      </select>
+    </div>
+    <div class="Weightoutput">
+      <label class="weight-input" for="output-weight">To:</label>
+      <!-- <input type="number" id="output-weight" readonly /> -->
+      <select id="weight-output-unit">
+       <option value="kilogram">Kilogram</option>
+        <option value="gram">Gram</option>
+        <option value="milligram">Milligram</option>
+        <option value="metricton">Metric Ton</option>
+        <option value="longton">Long Ton</option>
+        <option value="shortton">Short Ton</option>
+        <option value="pound">Pound</option>
+        <option value="ounce">Ounce</option>
+        <option value="carrat">Carrat</option>
+        <option value="amu">Atomic Mass Unit</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="weight.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Speed Converter</h1>
+  <div class="content">
+    <div class="speedinput">
+      <label class="speed-input" for="input-speed">From:</label>
+      <input type="number" id="input-speed" autofocus />
+      <select id="speed-input-unit">
+        <option value="kmperhr">Kilometre/hour</option>
+        <option value="mileperhr">Mile/hour</option>
+        <option value="mperhr">Metre/hour</option>
+        <option value="fpersec">Foot/second</option>
+        <option value="knot">Knot</option>
+      </select>
+    </div>
+    <div class="speedoutput">
+      <label class="speed-input" for="output-speed">To:</label>
+      <!-- <input type="number" id="output-speed" readonly /> -->
+      <select id="speed-output-unit">
+       <option value="kmperhr">Kilometre/hour</option>
+        <option value="mileperhr">Mile/hour</option>
+        <option value="mperhr">Metre/hour</option>
+        <option value="fpersec">Foot/second</option>
+        <option value="knot">Knot</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="speed.js"></script>
+</body>
+</html>

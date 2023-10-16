@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Pressure Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Pressure Converter</h1>
+  <div class="content">
+    <div class="Pressureinput">
+      <label class="pressure-input" for="input-pressure">From:</label>
+      <input type="number" id="input-pressure" autofocus />
+      <select id="pressure-input-unit">
+        <option value="megapascal">Megapascal</option>
+        <option value="kilopascal">Kilopascal</option>
+        <option value="pascal">Pascal</option>
+        <option value="bar">Bar</option>
+        <option value="psi">PSI</option>
+        <option value="psf">PSF</option>
+        <option value="atmosphere">Atmosphere</option>
+        <option value="technical atm">Technical Atm</option>
+        <option value="mmhg">mm Hg</option>
+        <option value="torr"presure>Torr</option>
+      </select>
+    </div>
+    <div class="Pressureoutput">
+      <label class="pressure-input" for="output-pressure">To:</label>
+      <!-- <input type="number" id="output-pressure" readonly /> -->
+      <select id="pressure-output-unit">
+      <option value="megapascal">Megapascal</option>
+        <option value="kilopascal">Kilopascal</option>
+        <option value="pascal">Pascal</option>
+        <option value="bar">Bar</option>
+        <option value="psi">PSI</option>
+        <option value="psf">PSF</option>
+        <option value="atmosphere">Atmosphere</option>
+        <option value="technical atm">Technical Atm</option>
+        <option value="mmhg">mm Hg</option>
+        <option value="torr">Torr</option>
+      </select>
+    </div>
+  
+   <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="pressure.js"></script>
+</body>
+
+</html>

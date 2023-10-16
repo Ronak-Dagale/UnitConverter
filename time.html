@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time page</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+     <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Time Converter</h1>
+  <div class="content">
+    <div class="timeinput">
+      <label class="time-input" for="input-time">From:</label>
+      <input type="number" id="input-time" autofocus />
+      <select id="time-input-unit">
+        <option value="second">Second</option>
+        <option value="millisecond">Millisecond</option>
+        <option value="microsecond">Microsecond</option>
+        <option value="nanosecond">Nanosecond</option>
+        <option value="picosecond">Picosecond</option>
+        <option value="minute">Minute</option>
+        <option value="Hour">Hour</option>
+        <option value="day">Day</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+        <option value="year">Year</option>
+      </select>
+    </div>
+    <div class="timeoutput">
+      <label class="time-input" for="output-time">To:</label>
+      <!-- <input type="number" id="output-time" readonly /> -->
+      <select id="time-output-unit">
+        <option value="second">Second</option>
+        <option value="millisecond">Millisecond</option>
+        <option value="microsecond">Microsecond</option>
+        <option value="nanosecond">Nanosecond</option>
+        <option value="picosecond">Picosecond</option>
+        <option value="minute">Minute</option>
+        <option value="Hour">Hour</option>
+        <option value="day">Day</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+        <option value="year">Year</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+   
+  <script src="time.js"></script>
+</body>
+</html>

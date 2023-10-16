@@ -1,0 +1,423 @@
+.html {
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+display: flex;
+  justify-content: space-around;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lightblue;
+  color: black;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+
+.subtitle {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+
+.tool_container {
+  display: grid;
+  grid-template-rows: repeat(4, 15vw);
+  grid-template-columns: repeat(3, 18vw);
+  padding: 12px;
+  gap: 64px;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.tool_item {
+  border: 3px solid black;
+  border-radius: 5px;
+  text-align: center;
+ padding: 5px;
+  background-color: #f1f1f1;
+}
+.tool_item h3 {
+  font-size: 25px;
+}
+.tool-item img {
+  margin-bottom: 2px;
+}
+
+.contitle {
+  font-size: 24px;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.back-button {
+  display: inline-block;
+  background-color: white;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.back-button:hover {
+  background-color: white;
+}
+.back-button img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.area-input {
+   /* changes */
+  font-size: 40px;
+  font-weight: bolder;
+}
+.Areaoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.Areainput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#convert-button{
+  margin:33px 700px;
+  font-size: 30px;
+  border-radius: 17px;
+  display: block;
+}
+.resultcontainer h1{
+  display: inline-block;
+  font-size: 40px;
+   color: red; 
+  padding: 20px 77px;
+}
+ #result{
+    font-size: 30px;
+ } 
+#area-input-unit{
+  font-size: 22px;
+}
+#area-output-unit{
+  font-size: 22px;
+}
+#input-area{
+  font-size: 21px;
+}
+/* this is css for our about us page */
+.length-input{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.content p{
+  font-size: 20px;
+}
+navbar {
+  background-color: #333;
+  color: #fff;
+  /* padding: 10px; */
+}
+
+.top {
+  overflow: hidden;
+  background-color: #333;
+display: flex;
+  justify-content: space-around;
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.top a:hover {
+  background-color: #555;
+  color: black;
+}
+
+.top a.active {
+  background-color: lightblue;
+  color: black;
+}
+
+.lengthoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.lengthinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#length-input-unit{
+  font-size: 22px;
+}
+#length-output-unit{
+  font-size: 22px;
+}
+#input-length{
+  font-size: 21px;
+}
+.pressure-input {
+ 
+  font-size: 40px;
+  font-weight: bolder;
+}
+.Pressureoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.Pressureinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#pressure-input-unit{
+  font-size: 22px;
+}
+#pressure-output-unit{
+  font-size: 22px;
+}
+#input-pressure{
+  font-size: 21px;
+}
+.temperature-input {
+   
+  font-size: 40px;
+  font-weight: bolder;
+}
+.temperatureoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.temperatureinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#temperature-input-unit{
+  font-size: 22px;
+}
+#temperature-output-unit{
+  font-size: 22px;
+}
+#input-temperature{
+  font-size: 21px;
+}
+.time-input {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.timeoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.timeinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#time-input-unit{
+  font-size: 22px;
+}
+#time-output-unit{
+  font-size: 22px;
+}
+#input-time{
+  font-size: 21px;
+}
+.weight-input {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.Weightoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.Weightinput {
+  display: inline-block;
+  padding: 50px 75px;
+  }
+#weight-input-unit{
+  font-size: 22px;
+}
+#weight-output-unit{
+  font-size: 22px;
+}
+#input-weight{
+  font-size: 21px;
+}
+.mileage-input {
+   font-size: 40px;
+  font-weight: bolder;
+}
+.mileageoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.mileageinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#mileage-input-unit{
+  font-size: 22px;
+}
+#mileage-output-unit{
+  font-size: 22px;
+}
+#input-mileage{
+  font-size: 21px;
+}
+.data-input {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.Dataoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.Datainput {
+  display: inline-block;
+  padding: 50px 75px;
+  }
+#data-input-unit{
+  font-size: 22px;
+}
+#data-output-unit{
+  font-size: 22px;
+}
+#input-data{
+  font-size: 21px;
+}
+.content{
+  border: 2px solid black;
+} 
+
+.volume-input {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.volumeoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.volumeinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#volume-input-unit{
+  font-size: 22px;
+}
+#volume-output-unit{
+  font-size: 22px;
+}
+#input-volume{
+  font-size: 21px;
+}
+.speed-input {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.speedoutput {
+  display: inline-block;
+  padding: 50px 250px;
+}
+.speedinput {
+  display: inline-block;
+  padding: 50px 75px;
+}
+#speed-input-unit{
+  font-size: 22px;
+}
+#speed-output-unit{
+  font-size: 22px;
+}
+#input-speed{
+  font-size: 21px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #333;
+  border-block-color: black;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+  border: 2px solid #333;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ebebeb;
+}
+
+.Womenhead
+{
+  background-color:#845BB3;
+}
+.Wcolor{
+  background-color:#f3e5f5;
+}
+tr:nth-child(even) {
+  background-color: #d0bdf4;
+}
+.Menhead {
+  background-color: #4285F4; /* Blue */
+  
+}
+
+
+.Mcolor {
+  background-color: #E0E5E5; /* Light Gray */
+}
+
+/* Styles for the odd rows in the men's table */
+.Menrow:nth-child(odd) {
+  background-color: #ECEFF1; /* Light Blue Gray */
+}

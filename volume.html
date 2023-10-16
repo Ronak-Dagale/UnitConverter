@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>volume Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Volume Converter</h1>
+  <div class="content">
+    <div class="volumeinput">
+      <label class="volume-input" for="input-volume">From:</label>
+      <input type="number" id="volume-length" autofocus />
+      <select id="volume-input-unit">
+        <option value="cubic meters">Cubic Meter</option>
+        <option value="cubic kilometer">Cubic Kilometer</option>
+        <option value="cubic centimeter">Cubic Centimeter</option>
+        <option value="cubic millimeter">Cubic Millimeter</option>
+        <option value="liter">Liter</option>
+        <option value="milliliter">Milliliter</option>
+        <option value="US gallon">US Gallon</option>
+        <option value="US quart">US Quart</option>
+        <option value="US pint">US Pint</option>
+        <option value="US cup">US Cup</option>
+        <option value="US table spoon">US Table Spoon</option>
+        <option value="US tea spoon">US Tea Spoon</option>
+        <option value="Imperial gallon">Imperial Gallon</option>
+        <option value="Imperial quart">Imperial Quart</option>
+        <option value="Imperial pint">Imperial Pint</option>
+        <option value="Imperial table spoon">Imperial Table Spoon</option>
+        <option value="Imperial tea spoon">Imperial Tea Spoon</option>
+        <option value="cubic mile">Cubic Mile</option>
+        <option value="cubic yard">Cubic Yard</option> 
+        <option value="cubic foot">Cubic Foot</option>
+        <option value="cubic inch">Cubic Inch</option>
+      </select>
+    </div>
+    <div class="volumeoutput">
+      <label class="volume-input" for="output-volume">To:</label>
+      <!-- <input type="number" id="output-volume" readonly /> -->
+      <select id="volume-output-unit">
+        <option value="cubic meters">Cubic Meter</option>
+        <option value="cubic kilometer">Cubic Kilometer</option>
+        <option value="cubic centimeter">Cubic Centimeter</option>
+        <option value="cubic millimeter">Cubic Millimeter</option>
+        <option value="liter">Liter</option>
+        <option value="milliliter">Milliliter</option>
+        <option value="US gallon">US Gallon</option>
+        <option value="US quart">US Quart</option>
+        <option value="US pint">US Pint</option>
+        <option value="US cup">US Cup</option>
+        <option value="US table spoon">US Table Spoon</option>
+        <option value="US tea spoon">US Tea Spoon</option>
+        <option value="Imperial gallon">Imperial Gallon</option>
+        <option value="Imperial quart">Imperial Quart</option>
+        <option value="Imperial pint">Imperial Pint</option>
+        <option value="Imperial table spoon">Imperial Table Spoon</option>
+        <option value="Imperial tea spoon">Imperial Tea Spoon</option>
+        <option value="cubic mile">Cubic Mile</option>
+        <option value="cubic yard">Cubic Yard</option> 
+        <option value="cubic foot">Cubic Foot</option>
+        <option value="cubic inch">Cubic Inch</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="volume.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Area Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a class="back-button" href="index.html">
+    <img src="arrow.png" alt="Back" width="24" height="24" />
+  </a>
+  <h1 class="contitle">Area Converter</h1>
+  <div class="content">
+    <div class="Areainput">
+      <label class="area-input" for="input-area">From:</label>
+      <input type="number" id="input-area" autofocus />
+      <select id="area-input-unit">
+        <option value="square-meters">Square Meter</option>
+        <option value="square-kilometers">Square Kilometer</option>
+        <option value="square-centimeter">Square Centimeter</option>
+        <option value="square-millimeter">Square Millimeter</option>
+        <option value="square-micrometer">Square Micrometer</option>
+        <option value="square-mile">Square Mile</option>
+        <option value="square-yard">Square Yard</option>
+        <option value="square-foot">Square Foot</option>
+        <option value="square-inch">Square Inch</option>
+        <option value="hectare">Hectare</option>
+        <option value="acre">Acre</option>
+      </select>
+    </div>
+    <div class="Areaoutput">
+      <label class="area-input" for="output-area">To:</label>
+      <select id="area-output-unit">
+        <option value="square-meters">Square Meter</option>
+        <option value="square-kilometers">Square Kilometer</option>
+        <option value="square-centimeter">Square Centimeter</option>
+        <option value="square-millimeter">Square Millimeter</option>
+        <option value="square-micrometer">Square Micrometer</option>
+        <option value="square-mile">Square Mile</option>
+        <option value="square-yard">Square Yard</option>
+        <option value="square-foot">Square Foot</option>
+        <option value="square-inch">Square Inch</option>
+        <option value="hectare">Hectare</option>
+        <option value="acre">Acre</option>
+      </select>
+    </div>
+    <div class="resultcontainer">
+      <button id="convert-button">Result</button>
+         <h1>Result :</h1>
+        <span id="result"></span>
+      </div>
+  </div>
+  <script src="area.js"></script>
+  
+</body>
+
+</html>
